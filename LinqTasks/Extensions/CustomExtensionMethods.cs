@@ -7,48 +7,29 @@ public static class CustomExtensionMethods
     //Put your extension methods here
 
 
-    /// <summary>
-    ///     Napisz własną metodę rozszerzeń, która pozwoli skompilować się poniższemu fragmentowi kodu.
-    ///     Metodę dodaj do klasy CustomExtensionMethods, która zdefiniowana jest poniżej.
-    ///     Metoda powinna zwrócić tylko tych pracowników, którzy mają min. 1 bezpośredniego podwładnego.
-    ///     Pracownicy powinny w ramach kolekcji być posortowani po nazwisku (rosnąco) i pensji (malejąco).
-    /// </summary>
-    public static IEnumerable<Emp> GetEmpsWithSubordinates(this IEnumerable<Emp> emps)
+
+    public static IEnumerable<Emp> TaskGetEmpsWithSubordinates(this IEnumerable<Emp> emps)
     {
-        IEnumerable<Emp> empsWithManagers = emps.Where(x => x.Mgr != null);
 
-        //map of managers and their subordinates
-
-        Dictionary<Emp,int> managersWithSubordinates = new();
-
-
-        foreach (Emp empWithManager in empsWithManagers)
+        Dictionary<Emp, int> employeesWithSubordinatesCount = new();
+        foreach (Emp employee in emps)
         {
-            if(empWithManager.Mgr != null)
-            {
-                if(managersWithSubordinates.ContainsKey(empWithManager.Mgr))
-                {
-                    managersWithSubordinates[empWithManager.Mgr]++;
-                }
-                else
-                {
-                    managersWithSubordinates.Add(empWithManager.Mgr,1);
-                }
-            }
+            int subordinatesCount = emps.Count(emp => emp.Mgr != null && emp.Mgr.Empno == employee.Empno);
+            if (subordinatesCount > 0)
+                employeesWithSubordinatesCount.Add(employee, subordinatesCount);
         }
 
-        //return colletion of strings
+
+        Dictionary<Emp, int>.KeyCollection filteredEmployees = employeesWithSubordinatesCount.Keys;
 
 
+        IOrderedEnumerable<Emp> sortedEmployees = filteredEmployees.OrderBy(emp => emp.Ename)
+            .ThenByDescending(emp => emp.Salary);
 
-        return empsWithManagers.Where(x => managersWithSubordinates.ContainsKey(x.Mgr))
-            .OrderBy(x => x.Ename)
-            .ThenByDescending(x => x.Salary);
-
-
+        return sortedEmployees;
     }
 
-    public static IEnumerable<Emp> GetEmpsWithDepartments(this IEnumerable<Emp> emps)
+    public static IEnumerable<Emp> TaskGetEmpsWithDepartments(this IEnumerable<Emp> emps)
     {
 
         return emps.Where(x => x.Deptno != null);

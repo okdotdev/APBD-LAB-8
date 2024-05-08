@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\s27773\\Downloads\\LinqTasks\\LinqTutorials\\LinqTests\\LinqTests.csproj": {}
+    "/Users/oskalbarczyk/RiderProjects/APBD-LAB-8/LinqTests/LinqTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\s27773\\Downloads\\LinqTasks\\LinqTutorials\\LinqTasks\\LinqTasks.csproj": {
+    "/Users/oskalbarczyk/RiderProjects/APBD-LAB-8/LinqTasks/LinqTasks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s27773\\Downloads\\LinqTasks\\LinqTutorials\\LinqTasks\\LinqTasks.csproj",
+        "projectUniqueName": "/Users/oskalbarczyk/RiderProjects/APBD-LAB-8/LinqTasks/LinqTasks.csproj",
         "projectName": "LinqTasks",
-        "projectPath": "C:\\Users\\s27773\\Downloads\\LinqTasks\\LinqTutorials\\LinqTasks\\LinqTasks.csproj",
-        "packagesPath": "C:\\Users\\s27773\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s27773\\Downloads\\LinqTasks\\LinqTutorials\\LinqTasks\\obj\\",
+        "projectPath": "/Users/oskalbarczyk/RiderProjects/APBD-LAB-8/LinqTasks/LinqTasks.csproj",
+        "packagesPath": "/Users/oskalbarczyk/.nuget/packages/",
+        "outputPath": "/Users/oskalbarczyk/RiderProjects/APBD-LAB-8/LinqTasks/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\s27773\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/oskalbarczyk/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,15 +59,11 @@
               "version": "[7.0.16, 7.0.16]"
             },
             {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
               "version": "[7.0.16, 7.0.16]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.16, 7.0.16]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
               "version": "[7.0.16, 7.0.16]"
             }
           ],
@@ -78,36 +72,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.200/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\s27773\\Downloads\\LinqTasks\\LinqTutorials\\LinqTests\\LinqTests.csproj": {
+    "/Users/oskalbarczyk/RiderProjects/APBD-LAB-8/LinqTests/LinqTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s27773\\Downloads\\LinqTasks\\LinqTutorials\\LinqTests\\LinqTests.csproj",
+        "projectUniqueName": "/Users/oskalbarczyk/RiderProjects/APBD-LAB-8/LinqTests/LinqTests.csproj",
         "projectName": "LinqTests",
-        "projectPath": "C:\\Users\\s27773\\Downloads\\LinqTasks\\LinqTutorials\\LinqTests\\LinqTests.csproj",
-        "packagesPath": "C:\\Users\\s27773\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s27773\\Downloads\\LinqTasks\\LinqTutorials\\LinqTests\\obj\\",
+        "projectPath": "/Users/oskalbarczyk/RiderProjects/APBD-LAB-8/LinqTests/LinqTests.csproj",
+        "packagesPath": "/Users/oskalbarczyk/.nuget/packages/",
+        "outputPath": "/Users/oskalbarczyk/RiderProjects/APBD-LAB-8/LinqTests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\s27773\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/oskalbarczyk/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\s27773\\Downloads\\LinqTasks\\LinqTutorials\\LinqTasks\\LinqTasks.csproj": {
-                "projectPath": "C:\\Users\\s27773\\Downloads\\LinqTasks\\LinqTutorials\\LinqTasks\\LinqTasks.csproj"
+              "/Users/oskalbarczyk/RiderProjects/APBD-LAB-8/LinqTasks/LinqTasks.csproj": {
+                "projectPath": "/Users/oskalbarczyk/RiderProjects/APBD-LAB-8/LinqTasks/LinqTasks.csproj"
               }
             }
           }
@@ -167,10 +159,6 @@
             {
               "name": "Microsoft.NETCore.App.Ref",
               "version": "[7.0.16, 7.0.16]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.16, 7.0.16]"
             }
           ],
           "frameworkReferences": {
@@ -178,7 +166,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.200/RuntimeIdentifierGraph.json"
         }
       }
     }

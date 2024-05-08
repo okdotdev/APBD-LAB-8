@@ -119,7 +119,7 @@ public static partial class Tasks
     /// </summary>
     public static IEnumerable<object> Task11()
     {
-        IEnumerable<Emp> empsWithDepartments = Emps.GetEmpsWithDepartments();
+        IEnumerable<Emp> empsWithDepartments = Emps.TaskGetEmpsWithDepartments();
 
         var departments = empsWithDepartments.GroupBy(x => x.Deptno)
             .ToDictionary(x => x.Key, x => x.Count());
@@ -137,7 +137,7 @@ public static partial class Tasks
     /// </summary>
     public static IEnumerable<Emp> Task12()
     {
-        IEnumerable<Emp> result = Emps.GetEmpsWithSubordinates();
+        IEnumerable<Emp> result = Emps.TaskGetEmpsWithSubordinates();
         return result;
     }
 

@@ -1,13 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "wwenqKOa5XWPS0Gm0LZ+7JDyOeI5udU39nzckba25tFralYizEYHLDt82u8b69sKrYWl6V10Z1HeIrXuRRc7Ug==",
+  "dgSpecHash": "1gud2Hgg5Yc2o/5pCMowFOu2ohbhPk7kfSALhISEKY1fJzmLOVh/lTfitenQshiJDxa3HlgB1Cgm6hEPPsbRAw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\s27773\\Downloads\\LinqTasks\\LinqTutorials\\LinqTasks\\LinqTasks.csproj",
+  "projectFilePath": "/Users/oskalbarczyk/RiderProjects/APBD-LAB-8/LinqTasks/LinqTasks.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\s27773\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.16\\microsoft.netcore.app.ref.7.0.16.nupkg.sha512",
-    "C:\\Users\\s27773\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.16\\microsoft.windowsdesktop.app.ref.7.0.16.nupkg.sha512",
-    "C:\\Users\\s27773\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.16\\microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512",
-    "C:\\Users\\s27773\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.16\\microsoft.netcore.app.host.win-x64.7.0.16.nupkg.sha512"
+    "/Users/oskalbarczyk/.nuget/packages/microsoft.netcore.app.ref/7.0.16/microsoft.netcore.app.ref.7.0.16.nupkg.sha512",
+    "/Users/oskalbarczyk/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.16/microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512",
+    "/Users/oskalbarczyk/.nuget/packages/microsoft.netcore.app.host.osx-arm64/7.0.16/microsoft.netcore.app.host.osx-arm64.7.0.16.nupkg.sha512"
   ],
   "logs": []
 }
